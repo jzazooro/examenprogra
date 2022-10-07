@@ -7,8 +7,11 @@ class Alumno():
             self.nombre = nombrealumno
             self.nota = notaalumno
 
-    def resultado(self):
+    def __str__(self):
+        return(self.nombre, self.nota)
+
+    def resultadonuevo(self):
         if self.nota >= 5:
-            print("Enhorabuena, usted ha aprobado")
+            print("Lo siento, el alumno ha suspendido")
         if self.nota < 5:
-            print("Lo siento, usted ha suspendido")
+            print("El alumno ha aprobado")
