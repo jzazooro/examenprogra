@@ -1,4 +1,4 @@
-class Alumno():
+class Alumnodos():
 
     def __init__(self):
         nombrealumno = input("introduce el nombre del alumno: ")
