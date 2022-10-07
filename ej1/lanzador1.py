@@ -1,6 +1,6 @@
 from ej1.ejercicio1 import Alumno
 
-def main():
+def main1():
 
     prueba1 = Alumno()
     prueba2 = Alumno()
